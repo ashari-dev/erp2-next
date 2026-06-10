@@ -1,14 +1,9 @@
-import type { Metadata } from "next";
+
 import { EcommerceMetrics } from "@/components/ecommerce/EcommerceMetrics";
 import React from "react";
 import MonthlyTarget from "@/components/ecommerce/MonthlyTarget";
 import MonthlySalesChart from "@/components/ecommerce/MonthlySalesChart";
 
-export const metadata: Metadata = {
-  title:
-    "ERP",
-  description: "This is Next.js Home for TailAdmin Dashboard Template",
-};
 
 export default function Ecommerce() {
   return (
